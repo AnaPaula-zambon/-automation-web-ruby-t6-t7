@@ -7,7 +7,7 @@ require 'pry'
 ENVIRONMENT = ENV['ENVIRONMENT']
 puts "ENVIRONMENT is runner >>> #{ENVIRONMENT}"
 
-CONFIG = YAML.load_file(File.dirname(_FILE_) +  "environments/#{ENVIRONMENT}.yml")
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.yml")
 
 
 
