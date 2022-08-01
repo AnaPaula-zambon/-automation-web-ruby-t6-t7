@@ -1,7 +1,11 @@
 Before do |scenario|
-    Capybara.current_session.driver.manager.delete_all_cookies
-    Page.driver.quit
+      Capybara.current_session.driver.manage.delete_all_cookie
 end
+   
+
+              
+          
+
 
 After do |scenario|
     scenario_name = scenario.name.gsub(/\s+/, '_').tr('/','_')

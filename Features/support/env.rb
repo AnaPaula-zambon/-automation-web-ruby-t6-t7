@@ -13,9 +13,6 @@ CONFIG = YAML.load_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.ym
 World(Helper)
 World(Pages)
 
-
-
-
 Capybara.configure do |config|
     config.default_driver = :selenium_chrome
     config.app_host = CONFIG['url_default']
