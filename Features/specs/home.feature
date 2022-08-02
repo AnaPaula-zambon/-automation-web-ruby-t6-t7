@@ -6,4 +6,4 @@ Funcionalidade: Home Page
 Cenario: Carregar Home Page
 
 Dado que eu acesse a home page do projeto Qa.Coders
-Então devo visualizar a informação "Aprenda na pratica."
+Então devo visualizar a informação "Aprenda na prática"
