@@ -1,7 +1,9 @@
 Dado('que eu acesse a home page do projeto Qa.Coders') do 
-    binding.pry
+    home.load
 end    
 
-Entâo('devo visualizar a informação {string}') do |string|
-  pending # Write code here that turns phrase above into concrete actions
+Então('devo visualizar a informação {string}') do |titleHomePage|
+    home.validate_text_homePage(titleHomePage)
+
+    
 end   

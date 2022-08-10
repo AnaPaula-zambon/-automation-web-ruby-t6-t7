@@ -1,5 +1,6 @@
 Before do |scenario|
-      Capybara.current_session.driver.manage.delete_all_cookie
+      Capybara.current_session.driver.browser.manage.delete_all_cookies
+        page.driver.quit
 end
    
 
@@ -14,7 +15,7 @@ After do |scenario|
         print_screen(scenario_name.downcase!, 'Failed')
 
     else   
-        print_screen(scenario_name.downcase!, 'Sucess')
+        print_screen(scenario_name.downcase!, 'Success')
    
        
    end    

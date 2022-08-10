@@ -1,5 +1,5 @@
 module Helper
-    def print_screen(file_name, results)
+    def print_screen(file_name, result)
         date = "#{Time.now.strftime("%Y/%B/%D")}"
         hour = "#{Time.now.strftime("%H-%M-%S")}"
 
