@@ -1,1 +1,3 @@
-url_default: 'http://qacoders.dev.br'
+url_default: 'https://qacoders.com.br'
+
+#Realizado teste com url apontando para PRD pois não temos acesso ao ambiente de dev.
